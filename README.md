@@ -1,4 +1,4 @@
-# Flight_Price_Agent
+# Flight_Hotel_Price_Agent
 
 Architektura komponentów
 1) Dane
