@@ -14,7 +14,8 @@ from src.india.split_data import split_data
     start_date=datetime(2024, 1, 1),
     schedule=None,
     catchup=False,
-    tags=["ml", "minio", "model", "training", "india"],
+    max_active_runs=1,
+    tags=["model", "pipeline", "india"],
     params={
         "experiment_name": "india_autogluon_training",
         "target": "price"

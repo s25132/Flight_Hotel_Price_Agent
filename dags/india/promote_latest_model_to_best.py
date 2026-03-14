@@ -40,7 +40,7 @@ with DAG(
     start_date=datetime(2025, 1, 1),
     schedule=None,
     catchup=False,
-    tags=["ml", "minio", "model", "promotion", "india"],
+    tags=["model", "promotion", "india"],
 ) as dag:
 
     promote_model = PythonOperator(
