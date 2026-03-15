@@ -16,6 +16,7 @@ def split_data(path):
     test_path = "/opt/airflow/data/processed/india/test_split.csv"
 
     os.makedirs(os.path.dirname(train_path), exist_ok=True)
+    os.makedirs(os.path.dirname(test_path), exist_ok=True)
 
     train_df.to_csv(train_path, index=False)
     test_df.to_csv(test_path, index=False)
